@@ -17,7 +17,7 @@ Add this package to your project's `dev_dependencies` in the `pubspec.yaml` file
 
 ```yaml
 dev_dependencies:
-  analysis_lints: ^1.0.0  # Adjust the path as needed
+  analysis_lints: ^1.0.1  # Adjust the path as needed
 ```
 
 ## Usage

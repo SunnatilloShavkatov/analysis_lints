@@ -199,7 +199,7 @@ analyzer:
     no_literal_bool_comparisons: error
     constant_identifier_names: error
     library_annotations: error
-  #    unnecessary_underscores: error
+    unnecessary_underscores: error
 
   exclude:
     - "**/*.g.dart"
@@ -408,4 +408,4 @@ linter:
     - valid_regexps
     - void_checks
     - always_use_package_imports
-#    - unnecessary_underscores
+    - unnecessary_underscores
