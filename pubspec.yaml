@@ -1,11 +1,12 @@
 name: analysis_lints
-version: 1.0.1
+version: 1.0.2
 homepage: https://github.com/SunnatilloShavkatov/analysis_lints.git
 description: "Unified analysis rules set for Flutter and Dart projects"
 
 environment:
-  sdk: ">=3.7.0 <4.0.0"
-  flutter: ">=3.29.0"
+  sdk: ">=3.8.0 <4.0.0"
+  flutter: ">=3.32.0"
 
 dependencies:
+  lints: ^5.1.1
   flutter_lints: ^5.0.0
