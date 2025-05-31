@@ -8,5 +8,5 @@ environment:
   flutter: ">=3.32.0"
 
 dependencies:
-  lints: ^5.1.1
-  flutter_lints: ^5.0.0
+  lints: ^6.0.0
+  flutter_lints: ^6.0.0
