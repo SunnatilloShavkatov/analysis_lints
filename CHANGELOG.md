@@ -1,3 +1,7 @@
+## 1.0.3
+
+* TODO: avoid_catching_errors lint rule removed.
+
 ## 1.0.2
 
 * TODO: Lints and formatting.
