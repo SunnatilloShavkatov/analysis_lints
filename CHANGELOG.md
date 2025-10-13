@@ -1,3 +1,21 @@
+## [1.0.4] - 2025-10-13
+
+### Added
+
+- **Linter Rules**: Added support for two new linter rules introduced in Flutter 3.9.0:
+  - `switch_on_type`: Discourages the use of `runtimeType` in switch statements, promoting pattern matching instead
+  - `unnecessary_unawaited`: Flags redundant uses of the `unawaited` function on expressions already marked with `@awaitNotRequired`
+
+### Changed
+
+- **Severity Levels**: Set the severity level for the new linter rules to `warning`
+
+### Removed
+
+- **Deprecated Rules**: Removed deprecated linter rules:
+  - `avoid_as`: Deprecated rule, modern Dart allows type casting when necessary
+  - `avoid_catches_without_on_clauses`: Overly strict rule removed for flexibility
+
 ## 1.0.3
 
 * TODO: avoid_catching_errors lint rule removed.

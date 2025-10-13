@@ -118,8 +118,6 @@ analyzer:
     flutter_style_todos: error
     no_logic_in_create_state: error
     # Lint Rules
-    avoid_as: error
-    avoid_catches_without_on_clauses: error
     avoid_classes_with_only_static_members: error
     avoid_double_and_int_checks: error
     avoid_implementing_value_types: error
@@ -183,6 +181,8 @@ analyzer:
     no_adjacent_strings_in_list: error
     no_duplicate_case_values: error
     always_use_package_imports: error
+    switch_on_type: warning
+    unnecessary_unawaited: warning
     sort_unnamed_constructors_first: error
     prefer_constructors_over_static_methods: error
     sort_constructors_first: error
@@ -215,7 +215,6 @@ linter:
     - annotate_redeclares
     - avoid_annotating_with_dynamic
     - avoid_bool_literals_in_conditional_expressions
-    - avoid_catches_without_on_clauses
     - avoid_classes_with_only_static_members
     - avoid_double_and_int_checks
     - avoid_dynamic_calls
@@ -353,6 +352,7 @@ linter:
     - sort_child_properties_last
     - sort_constructors_first
     - sort_unnamed_constructors_first
+    - switch_on_type
     - test_types_in_equals
     - throw_in_finally
     - tighten_type_of_initializing_formals
@@ -361,6 +361,7 @@ linter:
     - type_literal_in_constant_pattern
     - unawaited_futures
     - unnecessary_await_in_return
+    - unnecessary_unawaited
     - unnecessary_brace_in_string_interps
     - unnecessary_breaks
     - unnecessary_const
