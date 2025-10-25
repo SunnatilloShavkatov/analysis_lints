@@ -1,3 +1,18 @@
+## [1.0.5] - 2025-01-27
+
+### Added
+
+- **Example Package**: Added comprehensive example demonstrating package usage
+  - `example/main.dart`: Basic usage example with clear instructions
+  - `example/pubspec.yaml`: Proper dependency configuration
+  - `example/README.md`: Detailed usage guide and documentation
+  - `example/analysis_options.yaml`: Analysis rules configuration example
+
+### Changed
+
+- **Package Structure**: Improved package structure to meet pub.dev standards
+- **Documentation**: Enhanced documentation with practical examples
+
 ## [1.0.4] - 2025-10-13
 
 ### Added
