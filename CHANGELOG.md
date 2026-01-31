@@ -1,3 +1,7 @@
+## [1.0.5] - 2027-01-31
+
+* chore: bump version to 1.0.6 and update SDK and dependencies
+
 ## [1.0.5] - 2025-01-27
 
 ### Added
