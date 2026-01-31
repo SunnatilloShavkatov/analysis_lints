@@ -1,3 +1,7 @@
+## [1.0.9] - 2027-01-31
+
+* chore: bump version to 1.0.9 and update SDK and dependencies
+
 ## [1.0.8] - 2027-01-31
 
 * chore: bump version to 1.0.8 and update SDK and dependencies
