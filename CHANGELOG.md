@@ -2,6 +2,7 @@
 
 * feat: add Dart 3.13 primary-constructor lints — `empty_container_bodies`, `initialize_in_field_declaration`, `unnecessary_const_in_enum_constructor`, `unnecessary_primary_constructor_body`, `unnecessary_type_name_in_constructor`, `use_declaring_parameters`
 * chore: raise SDK floor to `>=3.13.0` (required for new lints)
+* fix: remove deprecated lint rules that triggered `deprecated_lint` warnings — `avoid_null_checks_in_equality_operators`, `avoid_private_typedef_functions`, `unnecessary_await_in_return`, `use_if_null_to_convert_nulls_to_bools` (removed from both `analyzer.errors` and `linter.rules`)
 
 ## [1.0.9] - 2027-01-31
 
