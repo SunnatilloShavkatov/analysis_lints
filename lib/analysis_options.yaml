@@ -274,6 +274,7 @@ linter:
     - document_ignores
     - empty_catches
     - empty_constructor_bodies
+    - empty_container_bodies
     - empty_statements
     - eol_at_end_of_file
     - exhaustive_cases
@@ -283,6 +284,7 @@ linter:
     - implementation_imports
     - implicit_call_tearoffs
     - implicit_reopen
+    - initialize_in_field_declaration
     - invalid_case_patterns
     - invalid_runtime_check_with_js_interop_types
     - join_return_with_assignment
@@ -371,6 +373,7 @@ linter:
     - unnecessary_brace_in_string_interps
     - unnecessary_breaks
     - unnecessary_const
+    - unnecessary_const_in_enum_constructor
     - unnecessary_constructor_name
     - unnecessary_getters_setters
     - unnecessary_ignore
@@ -386,17 +389,20 @@ linter:
     - unnecessary_nullable_for_final_variable_declarations
     - unnecessary_overrides
     - unnecessary_parenthesis
+    - unnecessary_primary_constructor_body
     - unnecessary_raw_strings
     - unnecessary_statements
     - unnecessary_string_escapes
     - unnecessary_string_interpolations
     - unnecessary_this
     - unnecessary_to_list_in_spreads
+    - unnecessary_type_name_in_constructor
     - unnecessary_unawaited
     - unnecessary_underscores
     - unrelated_type_equality_checks
     - use_build_context_synchronously
     - use_colored_box
+    - use_declaring_parameters
     - use_decorated_box
     - use_enums
     - use_full_hex_values_for_flutter_colors

@@ -1,3 +1,8 @@
+## [1.1.0] - 2026-08-14
+
+* feat: add Dart 3.13 primary-constructor lints — `empty_container_bodies`, `initialize_in_field_declaration`, `unnecessary_const_in_enum_constructor`, `unnecessary_primary_constructor_body`, `unnecessary_type_name_in_constructor`, `use_declaring_parameters`
+* chore: raise SDK floor to `>=3.13.0` (required for new lints)
+
 ## [1.0.9] - 2027-01-31
 
 * chore: bump version to 1.0.9 and update SDK and dependencies
