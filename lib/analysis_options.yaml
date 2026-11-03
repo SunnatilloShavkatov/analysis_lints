@@ -3,15 +3,6 @@ include: package:flutter_lints/flutter.yaml
 formatter:
   page_width: 120
 
-# Custom code style rules (see packages/analysis_lints_plugin).
-# The analysis server resolves this plugin on its own, so projects don't need
-# to add it to their pubspec.yaml.
-plugins:
-  analysis_lints_plugin:
-    version: ^1.0.0
-    diagnostics:
-      avoid_for_in_flex_children: error
-
 dart_code_metrics:
   anti-patterns:
     - long-method

@@ -1,8 +1,3 @@
-## [1.2.0] - 2026-11-03
-
-* feat: enable custom code style rules through the new `analysis_lints_plugin` native analyzer plugin (`plugins:` section in `analysis_options.yaml`)
-* feat: add `avoid_for_in_flex_children` rule (error) — no `for` elements directly inside `Column`/`Row`/`Flex` children
-
 ## [1.1.0] - 2026-08-14
 
 * feat: add Dart 3.13 primary-constructor lints — `empty_container_bodies`, `initialize_in_field_declaration`, `unnecessary_const_in_enum_constructor`, `unnecessary_primary_constructor_body`, `unnecessary_type_name_in_constructor`, `use_declaring_parameters`
