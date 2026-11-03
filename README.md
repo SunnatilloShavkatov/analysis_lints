@@ -42,6 +42,17 @@ linter:
     prefer_relative_imports: true
 ```
 
+## Custom code style rules
+
+Besides the built-in Dart lints, the shared options enable
+[analysis_lints_plugin](https://github.com/SunnatilloShavkatov/analysis_lints/tree/main/packages/analysis_lints_plugin), a native analyzer plugin
+with this team's own code style rules (for example `avoid_for_in_flex_children`).
+Its diagnostics appear in `dart analyze`, `flutter analyze` and the IDE. Nothing
+extra goes in `pubspec.yaml`: the analysis server downloads the plugin itself.
+
+See the [plugin README](https://github.com/SunnatilloShavkatov/analysis_lints/blob/main/packages/analysis_lints_plugin/README.md) for the rule
+list, how to change a rule's severity and how to ignore a diagnostic.
+
 ## Customizing the rules
 
 To customize the rules in this package, modify the `analysis_options.yaml` file in the package's `lib` directory.

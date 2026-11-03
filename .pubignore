@@ -28,4 +28,8 @@ migrate_working_dir/
 .dart_tool/
 build/
 /example/pubspec.lock
-CLAUDE.MD
+/packages/*/pubspec.lock
+
+# Kept in git, not shipped to pub.dev
+CLAUDE.md
+AGENTS.md

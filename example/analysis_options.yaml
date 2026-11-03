@@ -1,1 +1,12 @@
 include: package:analysis_lints/analysis_options.yaml
+
+analyzer:
+  exclude:
+    - build/**
+
+# Local development only: load the plugin from this repository instead of
+# pub.dev. Projects using the published package don't need this.
+plugins:
+  dependency_overrides:
+    analysis_lints_plugin:
+      path: ../packages/analysis_lints_plugin
